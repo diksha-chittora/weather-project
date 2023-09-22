@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project2.css">
+    <title>Weather App Diksha</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Application</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="searchBtn">Search</button>
+        <div id="weatherInfo" class="weather-info"></div>
+        <div class="parameter-container">
+
+            <!-- card 1 -->
+            <div class="parameter">
+                <img src="https://static.thenounproject.com/png/7702-200.png" height="100" width="100">
+                <p>Windspeed</p>
+                <p data-windspeed class="weather-desc"></p>
+            </div>
+            <!-- card 2 -->
+            <div class="parameter">
+                <img src="https://sixcase.com/wp-content/uploads/manual/humidity.png" height="100" width="100">
+                <p>Humidity</p>
+                <p data-humidity class="weather-desc"></p>
+            </div>
+            <!-- card 3 -->
+            <div class="parameter">
+                <img src="https://th.bing.com/th/id/R.74e019b12031688411874078f8903a6b?rik=GnGxc82oRssZrw&riu=http%3a%2f%2fimages.clipartpanda.com%2fclouds-png-Clouds.png&ehk=L%2fVTDP3L2wBlQh0%2fx6jGqWdHFOqv1I05ZwzE4sscri0%3d&risl=&pid=ImgRaw&r=0" height="100" width="100">
+                <p>Clouds</p>
+                <p data-cloud class="weather-desc"></p>
+            </div>
+        </div>
+    </div>
+    <script src="project2.js"></script>
+</body>
+</html>
